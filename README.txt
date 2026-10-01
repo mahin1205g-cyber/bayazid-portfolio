@@ -1,1 +1,0 @@
-Md Bayazid Hossain Portfolio\n\nCodeforces: Bayazid17911\nUnlock the Algorithm Contest Final: 4th place\nProblem Solving Final: 12th place\n\nUpload index.html, style.css and script.js to GitHub Pages.\n

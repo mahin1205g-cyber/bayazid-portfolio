@@ -1,3 +1,6 @@
-const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("show");obs.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll(".reveal").forEach(e=>obs.observe(e));
-const bar=document.querySelector(".progress"),cur=document.querySelector(".cursor");addEventListener("scroll",()=>{let m=document.documentElement.scrollHeight-innerHeight;bar.style.width=(m?scrollY/m*100:0)+"%"});addEventListener("mousemove",e=>{cur.style.left=e.clientX+"px";cur.style.top=e.clientY+"px"});
-const words=["Competitive Programmer.","Problem Solver.","Aspiring Software Engineer."];let w=0,c=0,del=false,t=document.querySelector("#typing");function type(){let s=words[w];t.textContent=s.slice(0,c);if(!del&&c<s.length){c++;setTimeout(type,65)}else if(!del){del=true;setTimeout(type,1100)}else if(c){c--;setTimeout(type,30)}else{del=false;w=(w+1)%words.length;setTimeout(type,250)}}type();
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const el=document.querySelector(a.getAttribute('href'));
+    if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});}
+  });
+});
