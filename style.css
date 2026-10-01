@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:#08090c;color:#f5f7fb;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.navbar{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;position:sticky;top:0;z-index:10;background:rgba(8,9,12,.82);backdrop-filter:blur(18px);border-bottom:1px solid #1b1e25}
+.logo{font:700 27px "Space Grotesk";letter-spacing:-1px}.logo span,.eyebrow,span{color:#8cffc1}
+nav{display:flex;gap:28px}nav a{font-size:13px;color:#a9adb7;transition:.2s}nav a:hover{color:#fff}
+.nav-btn,.primary-btn{background:#8cffc1;color:#07100b;padding:12px 19px;border-radius:9px;font-weight:700;font-size:13px}
+.hero{min-height:calc(100vh - 76px);display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:60px;padding:80px 7%;max-width:1500px;margin:auto}
+.eyebrow{font-size:11px;font-weight:800;letter-spacing:2.4px;margin-bottom:18px}
+h1,h2,h3{font-family:"Space Grotesk",sans-serif}
+h1{font-size:clamp(48px,6vw,82px);line-height:1.02;letter-spacing:-3px}
+h1 span{color:#8cffc1}
+.hero h2{font-size:23px;color:#d4d7df;margin:22px 0 14px;font-weight:600}
+.hero-text{max-width:650px;color:#9297a4;font-size:16px}
+.hero-actions{display:flex;gap:12px;margin:32px 0}
+.secondary-btn{border:1px solid #30343e;padding:12px 19px;border-radius:9px;font-weight:600;font-size:13px}
+.stats{display:flex;gap:42px;margin-top:45px}.stats strong{display:block;font:700 25px "Space Grotesk"}.stats small{display:block;color:#737987;font-size:11px;margin-top:3px}
+.hero-card{height:480px;border:1px solid #242832;border-radius:25px;background:radial-gradient(circle at 50% 35%,#14251d,#0b0d11 58%);position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.glow{position:absolute;width:270px;height:270px;border-radius:50%;background:#8cffc1;filter:blur(100px);opacity:.12}
+.profile-placeholder{width:205px;height:205px;border-radius:50%;border:1px solid #4e6f5e;display:grid;place-items:center;font:700 55px "Space Grotesk";color:#8cffc1;background:#101613;position:relative;z-index:1}
+.code-window{position:absolute;bottom:25px;left:25px;right:25px;background:#0b0d10;border:1px solid #292e37;border-radius:13px;padding:16px;color:#aab1bd;font:12px/1.8 monospace;box-shadow:0 15px 50px #0008}.code-window b{color:#8cffc1}.code-window span{color:#c69cff}.dots{display:flex;gap:5px;margin-bottom:10px}.dots i{width:7px;height:7px;border-radius:50%;background:#50545d}
+.section{max-width:1250px;margin:auto;padding:110px 7%}.section-heading h2{font-size:43px;line-height:1.1;letter-spacing:-1.5px}.section-heading>p:last-child{color:#888e9b;margin-top:16px;max-width:650px}
+.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:80px;margin-top:50px}.about-text{color:#a5aab5;font-size:16px}.about-text p+p{margin-top:20px}
+.about-box{border:1px solid #252a33;border-radius:16px;padding:8px}.about-box div{padding:17px;border-bottom:1px solid #20242c}.about-box div:last-child{border:0}.about-box span{display:block;color:#747a87;font-size:11px;margin-bottom:3px}.about-box b{font-size:13px}
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:45px}.skill-card{border:1px solid #242832;background:#0d0f13;padding:27px;border-radius:15px;transition:.25s}.skill-card:hover,.project:hover{transform:translateY(-5px);border-color:#3c5a49}.icon{font:700 13px monospace;color:#8cffc1;margin-bottom:22px}.skill-card h3{font-size:19px;margin-bottom:7px}.skill-card p,.project p{color:#7e8490;font-size:13px}
+.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:45px}.project{border:1px solid #242832;background:#0d0f13;padding:30px;border-radius:15px;min-height:250px;transition:.25s}.project-number{color:#4e5561;font:12px monospace;margin-bottom:35px}.project h3{font-size:21px;margin-bottom:10px}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:25px}.tags span{font-size:10px;color:#aab0bb;border:1px solid #292e38;padding:4px 8px;border-radius:99px}
+.timeline{margin-top:45px;border-left:1px solid #30343d;padding-left:30px}.timeline-item{display:grid;grid-template-columns:150px 1fr;gap:20px;position:relative}.timeline-item:before{content:"";position:absolute;left:-35px;top:5px;width:9px;height:9px;background:#8cffc1;border-radius:50%;box-shadow:0 0 0 5px #142019}.year{color:#8cffc1;font:12px monospace}.timeline-item h3{font-size:22px}.timeline-item p{color:#a4a9b3}.timeline-item span{font-size:12px;color:#6e7480}
+.coding-box{border:1px solid #26332c;border-radius:22px;padding:50px;background:linear-gradient(120deg,#0e1612,#0c0e12);display:flex;justify-content:space-between;align-items:center;gap:40px}.coding-box h2{font-size:39px;line-height:1.1}.coding-stats{display:flex;gap:35px}.coding-stats b{display:block;font:700 25px "Space Grotesk"}.coding-stats span{display:block;color:#737a86;font-size:10px}
+.contact{text-align:center;padding-bottom:100px}.contact .section-heading h2{font-size:55px}.contact-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:35px}.contact-links a{border:1px solid #292e37;padding:12px 20px;border-radius:9px;font-size:13px}.contact-links a:hover{border-color:#8cffc1;color:#8cffc1}
+footer{border-top:1px solid #1d2027;padding:25px 7%;display:flex;justify-content:space-between;color:#606672;font-size:11px}
+@media(max-width:850px){nav{display:none}.nav-btn{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.hero-card{height:400px}.about-grid,.skills-grid,.projects-grid{grid-template-columns:1fr}.coding-box{flex-direction:column;align-items:flex-start}.coding-stats{flex-wrap:wrap}.section{padding:80px 6%}.contact .section-heading h2{font-size:40px}footer{flex-direction:column;gap:8px}}
