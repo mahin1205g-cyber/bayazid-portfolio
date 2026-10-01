@@ -1,12 +1,1 @@
-# Mirza Zihad Portfolio
-
-## How to open
-1. Extract the ZIP file.
-2. Open the `index.html` file in Chrome/Edge/Firefox.
-3. To customize your links, edit the contact section in `index.html`.
-4. To add your real photo, replace the `MZ` placeholder with an image element.
-
-Files:
-- index.html
-- style.css
-- script.js
+Md Bayazid Hossain Portfolio\n\nCodeforces: Bayazid17911\nUnlock the Algorithm Contest Final: 4th place\nProblem Solving Final: 12th place\n\nUpload index.html, style.css and script.js to GitHub Pages.\n
